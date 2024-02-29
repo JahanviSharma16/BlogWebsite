@@ -12,7 +12,7 @@ import {
   Link
 } from "react-router-dom";
 function App() {
-  const user = false;
+  const user = true;
   return (
     <Router>
       <TopBar/>
@@ -20,7 +20,7 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/register">{user ? <Home /> : <Register />}</Route>
+          <Route path="/register">{user ? <Register /> : <Home />}</Route>
           <Route path="/login">{user ? <Home /> : <Login />}</Route>
           <Route path="/write">{user ? <Write /> : <Register/>} </Route>
           <Route path="/settings">{user ? <Settings />: <Register />}</Route>

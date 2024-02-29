@@ -3,7 +3,7 @@ import "./write.css"
 export default function Write() {
   return (
     <div className="write">
-    <img className="writeImg" src="https://newbreak.church/wp-content/uploads/2023/12/paykyb-8er8-1536x1025.jpg" alt="" />
+    <img className="writeImg" src="https://english.columbian.gwu.edu/sites/g/files/zaxdzs4551/files/2022-03/read-our-blog.jpg" alt="" />
       <form className="writeForm">
         <div className="writeFormGroup">
         <label htmlFor="fileInput">

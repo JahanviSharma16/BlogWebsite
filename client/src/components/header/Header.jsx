@@ -6,7 +6,7 @@ export default function Header() {
         <span className="headerTitleSm">React & Node</span>
         <span className="headerTitleLg">Blog</span>
       </div>
-      <img  className="headerImg" src="https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-green-field-scenery-free-photo.jpg?w=600&quality=80" alt="image" />
+      <img  className="headerImg" src="https://newbreak.church/wp-content/uploads/2023/12/paykyb-8er8-1536x1025.jpg" alt="image" />
     </div>
   )
 }
